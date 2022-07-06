@@ -21,8 +21,8 @@ jobs:
     steps:
       - checkout
       - run: |
-          npm audit
-          npm audit fix
+          # npm audit
+          npm install npm@latest -g
 
 workflows:
   my_workflow:
